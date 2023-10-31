@@ -1,0 +1,11 @@
+#footContainer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  .contactList{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+

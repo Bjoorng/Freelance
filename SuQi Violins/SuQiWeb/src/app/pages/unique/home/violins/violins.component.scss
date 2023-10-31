@@ -1,0 +1,13 @@
+#violinsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .singleViolin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+      width: 300px;
+    }
+  }
+}

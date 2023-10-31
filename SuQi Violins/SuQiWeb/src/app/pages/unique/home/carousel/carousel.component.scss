@@ -1,0 +1,16 @@
+#carouselContainer {
+  margin-top: 175px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .carousel-inner .carousel-item {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+  }
+  .carousel-inner img {
+      width: 100%;
+      height: auto;
+    }
+}

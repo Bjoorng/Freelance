@@ -1,0 +1,32 @@
+#navContainer{
+  color: white;
+  .listContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #280000;
+    height: 50px;
+    #logoContainer {
+      margin-left: 20px;
+    }
+    #leftSide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      a{
+        color: white;
+      }
+      li {
+        margin-left: 20px;
+      }
+    }
+    #dropContainer {
+      margin-right: 20px;
+      color: white;
+    }
+    .dropDown{
+      color: white;
+    }
+  }
+}
