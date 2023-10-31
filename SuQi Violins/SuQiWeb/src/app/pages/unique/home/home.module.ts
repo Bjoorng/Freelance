@@ -1,6 +1,7 @@
+import { MatCardModule } from '@angular/material/card';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 import { HomeRoutingModule } from './home-routing.module';
@@ -16,6 +17,7 @@ import { ViolinsComponent } from './violins/violins.component';
     ViolinsComponent
   ],
   imports: [
+    MatCardModule,
     CommonModule,
     HomeRoutingModule,
     NgbModule,
