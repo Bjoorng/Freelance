@@ -1,0 +1,41 @@
+.contactsContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  .contactsCard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: maroon;
+    border: 5px solid black;
+    border-radius: 15px;
+    .contactsCardImg {
+      width: 500px;
+      height: auto;
+      border: 2px solid black;
+      border-radius: 15px;
+      margin-left: 20px;
+    }
+    .contactSection {
+      background-color: wheat;
+      font-weight: bold;
+      border: 2px solid black;
+      border-radius: 15px;
+      .contactsChina {
+        padding: 20px 20px 0px 20px;
+      }
+      .contactsItaly {
+        padding: 20px 20px 0px 20px;
+      }
+      .emails {
+        padding: 20px 20px 0px 20px;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
+
+a{
+  color: maroon;
+}

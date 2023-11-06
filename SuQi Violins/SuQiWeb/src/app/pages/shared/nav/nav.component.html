@@ -3,32 +3,45 @@
     <div class="listContainer">
       <div class="d-flex align-items-center">
         <div id="logoContainer">
-          <img class="logo" src="" alt="Logo">
+          <img class="logo" src="" alt="Logo" />
         </div>
         <div id="leftSide">
           <li [ngbNavItem]="1"><a routerLink="/">Home</a></li>
           <li [ngbNavItem]="2"><a routerLink="/">Bio</a></li>
           <li [ngbNavItem]="3"><a routerLink="/">Concorsi</a></li>
           <li [ngbNavItem]="4"></li>
-          <li ngbDropdown class="nav-item" role="presentation">
-            <button type="button" class="nav-link dropDown" ngbDropdownToggle>Strumenti</button>
-            <div ngbDropdownMenu>
-              <button ngbDropdownItem routerLink="/violins">Violino</button>
-              <button ngbDropdownItem>Viola</button>
-              <button ngbDropdownItem>Violoncello</button>
-            </div>
-          </li>
+          <div class="dropContainer">
+            <li ngbDropdown class="nav-item" role="presentation">
+              <button type="button" class="nav-link dropDown" ngbDropdownToggle>
+                Strumenti
+              </button>
+              <div ngbDropdownMenu>
+                <button ngbDropdownItem routerLink="/violins">Violino</button>
+                <button ngbDropdownItem>Viola</button>
+                <button ngbDropdownItem>Violoncello</button>
+              </div>
+            </li>
+          </div>
         </div>
       </div>
-      <div id="dropContainer">
-        <li ngbDropdown class="nav-item" role="presentation">
-          <button type="button" class="nav-link dropDown" ngbDropdownToggle>Language</button>
-          <div ngbDropdownMenu>
-            <button ngbDropdownItem>ITA</button>
-            <button ngbDropdownItem>ENG</button>
-            <button ngbDropdownItem>CHI</button>
-          </div>
-        </li>
+      <div id="rightSide">
+        <div class="dropContainer">
+          <li ngbDropdown class="nav-item" role="presentation">
+            <button type="button" class="nav-link dropDown" ngbDropdownToggle>
+              <mat-icon>language</mat-icon>
+            </button>
+            <div ngbDropdownMenu>
+              <button ngbDropdownItem>ITA</button>
+              <button ngbDropdownItem>ENG</button>
+              <button ngbDropdownItem>CHI</button>
+            </div>
+          </li>
+          <div id="contacts">
+              <li>
+                <a routerLink="/contacts">contatti</a>
+              </li>
+            </div>
+        </div>
       </div>
     </div>
   </ul>

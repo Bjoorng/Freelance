@@ -1,11 +1,12 @@
 #footContainer {
+  display: flex;
+  justify-content: center;
+  background-color: #280000;
+  color: white;
+  width: 100%;
   position: fixed;
   bottom: 0;
+  z-index: 1;
   width: 100%;
-  .contactList{
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-  }
 }
 

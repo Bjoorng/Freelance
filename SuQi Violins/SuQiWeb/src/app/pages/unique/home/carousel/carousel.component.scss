@@ -1,9 +1,10 @@
 #carouselContainer {
-  margin-top: 175px;
+  margin-top: 125px;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 900px;
   .carousel-inner .carousel-item {
     display: block;
     width: 100%;
