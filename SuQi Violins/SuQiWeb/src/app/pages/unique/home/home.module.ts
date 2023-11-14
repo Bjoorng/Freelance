@@ -7,13 +7,15 @@ import { HomeComponent } from './home.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselComponent } from './carousel/carousel.component';
 import { ViolinsComponent } from './violins/violins.component';
+import { InstrumentComponent } from './instrument/instrument.component';
 
 
 @NgModule({
   declarations: [
     HomeComponent,
     CarouselComponent,
-    ViolinsComponent
+    ViolinsComponent,
+    InstrumentComponent
   ],
   imports: [
     CommonModule,

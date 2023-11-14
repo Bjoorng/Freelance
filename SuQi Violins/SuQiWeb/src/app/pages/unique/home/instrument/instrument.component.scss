@@ -1,0 +1,33 @@
+#instrumentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  .instrumentName {
+    font-weight: bold;
+  }
+  .instrumentDesc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .descTitle {
+      font-weight: bold;
+    }
+  }
+  .bigPic {
+    width: 500px;
+    height: auto;
+  }
+  .bottomInstrumentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    .instPicBot {
+      width: 100px;
+      height: auto;
+      margin-top: 15px;
+    }
+  }
+}
